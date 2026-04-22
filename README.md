@@ -1,11 +1,13 @@
 
 
 Nome Completo: Maycon De Oliveira Gomes Batista 
+
+
+
 Curso: Analise e desenvolvimentos dos sistemas 
 
----
+Heurísticas de Nielsen Aplicadas
 
- Heurísticas de Nielsen Aplicadas
 1. Visibilidade do Status do Sistema:** O sistema mantém o usuário informado sobre o progresso de suas ações em tempo real. Ao clicar no botão, o contador de pontos e a barra de progresso são atualizados instantaneamente, fornecendo feedback imediato.
 
 2. Reconhecimento em vez de Recordação: O uso de cores (azul para início e verde para metas atingidas) e elementos visuais (barra de progresso) permite que o usuário identifique seu sucesso e status atual sem precisar memorizar quantos pontos cada ação vale ou quanto falta para atingir o objetivo.
