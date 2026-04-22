@@ -1,0 +1,41 @@
+@rendermode InteractiveServer
+
+<div class="card m-3 shadow-sm" style="width: 18rem;">
+    <div class="card-body text-center">
+        <h5 class="card-title text-secondary">@Titulo</h5>
+        
+        <h3 class="display-5 @(Contador >= 50 ? "text-success" : "text-primary")">
+            @Contador pts
+        </h3>
+
+        <div class="progress my-3" style="height: 20px;">
+            <div class="progress-bar progress-bar-striped bg-success" 
+                 role="progressbar" 
+                 style="width: @(Math.Min(Contador, 100))%;">
+            </div>
+        </div>
+
+        @if (Contador >= 100)
+        {
+            <div class="alert alert-warning py-1 small">
+                <strong>🌟 Herói do Planeta!</strong>
+            </div>
+        }
+
+        <button class="btn btn-dark w-100" @onclick="Incrementar">
+            Registrar Ação
+        </button>
+    </div>
+</div>
+
+@code {
+    [Parameter] public string Titulo { get; set; } = "Ação";
+    [Parameter] public int Peso { get; set; } = 1;
+
+    private int Contador { get; set; } = 0;
+
+    private void Incrementar()
+    {
+        Contador += Peso;
+    }
+}
