@@ -12,16 +12,23 @@ Heurísticas de Nielsen Aplicadas
 
 2. Reconhecimento em vez de Recordação: O uso de cores (azul para início e verde para metas atingidas) e elementos visuais (barra de progresso) permite que o usuário identifique seu sucesso e status atual sem precisar memorizar quantos pontos cada ação vale ou quanto falta para atingir o objetivo.
 
-
-## 🛠️ Guia de Execução
-Para rodar este projeto localmente, siga os passos abaixo no seu terminal:
-
 Para Rodar 
+
+
 ir ate a pasta EcoMonitor no cmd 
+
+
 comando cd EcoMonitor 
+
+
 logo depois dar um dotnet run --launch-profile https no cmd 
+
+
 O terminal informará a URL o meu foi esse https://localhost:7023 mas pode mudar o numero mas o padrao é o mesmo. 
+
+
 logo depois apertar o control + s e vai pra o site. 
 
 Explicaçao sobre o Parameter 
+
 O uso do atributo Parameter permite a comunicação entre componentes, transformando propriedades de C# em atributos de marcação HTML. Isso viabiliza a criação de componentes genéricos que adaptam seu comportamento e conteúdo com base nos dados fornecidos no momento da instância, garantindo a manutenibilidade e seguindo o princípio DRY (Don't Repeat Yourself).
